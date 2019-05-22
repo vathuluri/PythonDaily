@@ -1,3 +1,5 @@
+##  The Python interpreter supports many functions that are built-in: sixty-eight, as of Python 3.6. You will cover many of these in the following discussions, as they come up in context.
+
 #   Math
 
 |Function	|   Description|
@@ -45,4 +47,32 @@
 |slice()	|Returns a slice object|
 |sorted()	|Returns a sorted list from an iterable|
 |zip()	|Creates an iterator that aggregates elements from iterables|
+|||
+
+#   Composite Data Type
+|Function	|   Description|
+| ----------|--------------|
+|bytearray()	|Creates and returns an object of the bytearray class|
+|bytes()	    |Creates and returns a bytes object (similar to bytearray, but immutable)|
+|dict()	    |Creates a dict object|
+|frozenset()	|Creates a frozenset object|
+|list()	    |Constructs a list object|
+|object()	|Returns a new featureless object|
+|set()	    |Creates a set object|
+|tuple()	    |Creates a tuple object|
+|||
+
+
+#   Classes, Attributes, and Inheritance   
+|Function	|   Description|
+| ----------|--------------|
+|classmethod()	|Returns a class method for a function|
+|delattr()	    |Deletes an attribute from an object|
+|getattr()	    |Returns the value of a named attribute of an object|
+|hasattr()	    |Returns True if an object has a given attribute|
+|isinstance()	|Determines whether an object is an instance of a given class|
+|issubclass()	|Determines whether a class is a subclass of a given class|
+|property()	    |Returns a property value of a class|
+|setattr()	    |Sets the value of a named attribute of an object|
+|super()	        |Returns a proxy object that delegates method calls to a parent or sibling class|
 |||
