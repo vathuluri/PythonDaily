@@ -1,4 +1,4 @@
-##  The Python interpreter supports many functions that are built-in: sixty-eight, as of Python 3.6. You will cover many of these in the following discussions, as they come up in context.
+<p>The Python interpreter supports many functions that are built-in: sixty-eight, as of Python 3.6. You will cover many of these in the following discussions, as they come up in context.</p>
 
 #   Math
 
