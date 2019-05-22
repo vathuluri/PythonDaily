@@ -76,3 +76,37 @@
 |setattr()	    |Sets the value of a named attribute of an object|
 |super()	        |Returns a proxy object that delegates method calls to a parent or sibling class|
 |||
+
+
+#   Input/Output
+|Function	|   Description|
+| ----------|--------------|
+|format()|	Converts a value to a formatted representation|
+|input()	| Reads input from the console|
+|open()	 |Opens a file and returns a file object|
+|print()	| Prints to a text stream or the console|
+|||
+
+#   Variables, References, and Scope
+|Function	|   Description|
+| ----------|--------------|
+|dir()	  |Returns a list of names in current local scope or a list of object attributes|
+|globals()|	Returns a dictionary representing the current global symbol table|
+|id()	   |Returns the identity of an object|
+|locals()|	Updates and returns a dictionary representing current local symbol table|
+|vars()	 | Returns __dict__ attribute for a module, class, or object|
+|||
+
+#   Miscellaneous
+|Function	|   Description|
+| ----------|--------------|
+|callable()	|Returns True if object appears callable|
+|compile()	|Compiles source into a code or AST object|
+|eval()	    |Ealuates a Python expression|
+|exec()	    |plements dynamic execution of Python code|
+|hash()	    |eturns the hash value of an object|
+|help()	    |nvokes the built-in help system|
+|memoryview()|	Returns a memory view object|
+|staticmethod()|	Returns a static method for a function|
+|__import__()|	Invoked by the import statement|
+|||
