@@ -1,8 +1,8 @@
 # Reserved Words (Keywords)
 
 
-|Keywprd	|   | |
-| ----------|--------------|--------------|--------------|
+|Keywprd	|   | | |
+| ----------|--------------|--------------|------|
 |False	    |def	    |if	        |raise|
 |None	    |del	    |import	    |return|
 |True	    |elif	    |in	        |try|
@@ -12,5 +12,5 @@
 |break	    |for	    |not	|
 |class	    |from	    |or	|
 |continue   |global	    |pass|
-||||
+|||| |
  
