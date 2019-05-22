@@ -28,3 +28,21 @@
 |str()	|Returns a string version of an object|
 |type()|	Returns the type of an object or creates a new type object|
 | | |
+
+#   Iterables and Iterators
+|Function	|   Description|
+| ----------|--------------|
+|all()	    |  Returns True if all elements of an iterable are true|
+|any()	    |   Returns True if any elements of an iterable are true|
+|enumerate()|	Returns a list of tuples containing indices and values from an iterable|
+|filter()	| Filters elements from an iterable|
+|iter()	    |Returns an iterator object|
+|len()	    |Returns the length of an object|
+|map()	    |Applies a function to every item of an iterable|
+|next()	    |Retrieves the next item from an iterator|
+|range()	|Generates a range of integer values|
+|reversed()	|Returns a reverse iterator|
+|slice()	|Returns a slice object|
+|sorted()	|Returns a sorted list from an iterable|
+|zip()	|Creates an iterator that aggregates elements from iterables|
+|||
