@@ -1,7 +1,7 @@
 # Reserved Words (Keywords)
 
 
-|Keywprd	|   | | |
+|Reserved Words	|   | | |
 | ----------|--------------|--------------|------|
 |False	    |def	    |if	        |raise|
 |None	    |del	    |import	    |return|
