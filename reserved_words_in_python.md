@@ -1,3 +1,5 @@
+<p>In Python 3.6, there are 33 reserved keywords: </p>
+
 # Reserved Words (Keywords)
 
 
