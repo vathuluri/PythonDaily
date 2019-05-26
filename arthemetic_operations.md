@@ -2,8 +2,7 @@
 
 |Operator    | Example  | Meaning| Result|
 | ----------|--------------|--------------|------|
-|+ (unary)	|+a	    |    Unary Positive	                | a|
-|                                                           | In other words, it doesn’t really do anything. It mostly exists for the sake of completeness, to complement Unary Negation.|
+|+ (unary)	|+a	    |    Unary Positive	                | a In other words, it doesn’t really do anything. It mostly exists for the sake of completeness, to complement Unary Negation.|
 |+ (binary) |a + b   |   Addition	                        | Sum of a and b|
 |- (unary)	|-a	     |   Unary Negation	                    | Value equal to a but opposite in sign|
 |- (binary) |a - b|  |   Subtraction	                    | b subtracted from a|
