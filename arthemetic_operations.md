@@ -9,6 +9,6 @@
 |*	        |a * b	 |   Multiplication	                    | Product of a and b|
 |/	        |a / b	 |   Division	                        | Quotient when a is divided by b. The result always has type float.|
 |%	        |a % b	 |   Modulo	                            | Remainder when a is divided by b|
-|//	        | a // b |	 Floor Division (also called Integer Division)	||
+|//	        | a // b |	 Floor Division (also called Integer Division)	|Quotient when a is divided by b, rounded to the next smallest whole number|
 |**	        | a ** b |	 Exponentiation	                    | a raised to the power of b|
 |||||
