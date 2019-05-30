@@ -1,5 +1,5 @@
 ||Operator|Description|
-|----|----|----|----|
+|----|----|----|
 |lowest precedence|or	|Boolean OR|
 ||and	|Boolean AND|
 ||not	|Boolean NOT|
