@@ -14,6 +14,7 @@
 |highest precedence|**	|exponentiation|
 
 
+#   Example 1
 
 ```
 >>> 20 + 4 * 10
