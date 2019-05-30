@@ -27,3 +27,13 @@
 >>> 2 * 3 ** (4 * 5)
 6973568802
 ```
+
+#   Example 2 (Augmented Assignment Operators)
+
+```
+>>> a = 10
+>>> b = 20
+>>> c = a * 5 + b
+>>> c
+70
+```
