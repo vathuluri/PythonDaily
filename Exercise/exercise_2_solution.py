@@ -1,6 +1,3 @@
-#518.31
-##412.51 for full coverage on mine and liabity for honda
-
 
 num = int(input("give me a number to check: "))
 check = int(input("give me a number to divide by: "))
