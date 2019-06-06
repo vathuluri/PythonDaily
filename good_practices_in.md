@@ -25,3 +25,20 @@ cond2 = <other complex comparison>
 if cond1 and cond2:
     # do something
 ```
+
+#   Explicit code
+
+## Bad Syntax
+
+```
+def make_complex(*args):
+    x, y = args
+    return dict(**locals())
+```
+
+##  Good Practice
+
+```
+def make_complex(x, y):
+    return {'x': x, 'y': y}
+```
