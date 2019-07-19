@@ -12,16 +12,20 @@ def render_template(template, context):
 
     return tmpl.render(Context(context))
     
-
-@app.task
-def send_mail_task(recipients, subject, template, context):
-    send_mail(
-        subject=subject,
-        message=render_template(f'{template}.txt', context),
-        from_email=settings.DEFAULT_FROM_EMAIL,
-        recipient_list=recipients,
-        fail_silently=False,
-        html_message=render_template(f'{template}.html', context)
-    )
+@celery_app.task(bind=True, default_retry_delay=10 * 60)
+def send_mail_task(self, recipients, subject, template, context):
+    message = render_template(f'{template}.txt', context)
+    html_message = render_template(f'{template}.html', context)
+    try:
+        send_mail(
+            subject=subject,
+            message=message,
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            recipient_list=recipients,
+            fail_silently=False,
+            html_message=html_message
+        )
+    except smtplib.SMTPException as ex:
+        self.retry(exc=ex)
 
 send_mail_task.delay(('noreply@example.com', ), 'Celery cookbook test', 'test', {})
